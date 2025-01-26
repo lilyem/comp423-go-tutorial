@@ -1,0 +1,13 @@
+{
+    "name": "COMP423 Go Tutorial - Go Development",
+    "image": "mcr.microsoft.com/devcontainers/go:latest", 
+    "customizations": {
+      "vscode": {
+        "settings": {},
+        "extensions": [
+          "golang.go" 
+        ]
+      }
+    },
+    "postCreateCommand": "go mod init comp423 && go install"
+  }
